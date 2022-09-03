@@ -54,9 +54,9 @@ const FoodComp = () => {
       {/* food items */}
 
       <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6 pt-4 ">
-        {food?.map((item) => {
+        {food?.map((item,index) => {
           return (
-            <div className="border rounded-md shadow-sm hover:scale-105 duration-300">
+            <div key={index} className="border rounded-md shadow-sm hover:scale-105 duration-300">
               <img className="w-full h-[200px] rounded-t-md" src={item.image} alt="" />
               <div className="p-2 flex justify-between">
                 {" "}

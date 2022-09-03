@@ -17,8 +17,13 @@ export default function Home() {
 
       <HeroComp />
       <div className="py-12 grid md:grid-cols-3 lg:grid-cols-4 gap-6">
-        {[1, 2, 3, 4].map((item) => {
-          return <HeadlineCard />;
+        {[1, 2, 3, 4].map((item,index) => {
+          return (
+            <div key={index}>
+              {" "}
+              <HeadlineCard />{" "}
+            </div>
+          );
         })}
       </div>
 
