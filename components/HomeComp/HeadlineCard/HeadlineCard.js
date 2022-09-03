@@ -23,7 +23,7 @@ const HeadlineCard = () => {
         </div>
         <img
           className="rounded-xl w-full max-h-[160px] md:max-h-[260px] object-cover hover:scale-105 "
-          src="https://images.unsplash.com/photo-1504674900247-0877df9cc836?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8Zm9vZHxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=300&q=60"
+          src={`https://images.unsplash.com/photo-1504674900247-0877df9cc836?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8Zm9vZHxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=300&q=60`}
           alt=""
         />
       </div>
