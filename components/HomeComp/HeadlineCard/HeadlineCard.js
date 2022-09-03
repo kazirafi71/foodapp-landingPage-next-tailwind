@@ -9,7 +9,7 @@ const HeadlineCard = () => {
         <div className="absolute rounded-xl w-full h-full bg-black/70 text-white p-4 flex justify-center flex-col  ">
           <div className="text-center space-y-2">
             <p className="text-xl md:text-2xl font-bold">
-              Suns's Out BOGO'S out
+              Suns Out BOGO out
             </p>
             <p className="text-xl">through 8/26</p>
             <button
